@@ -38,7 +38,7 @@ export default function Locations() {
         .location-card { background: #ffffff; overflow: hidden; flex: 1; min-width: 0; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); }
         .location-card-img-wrap { position: relative; width: 100%; height: 280px; }
         .location-card-footer { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; background: #ffffff; }
-        .location-card-footer span { font-size: 15px; font-weight: 500; color: #000; font-family: "Playfair-Display"; }
+        .location-card-footer span { font-size: 25px; font-weight: 500; color: #000; font-family: "Playfair-Display"; }
         .explore-btn { background: #D7172A; color: #ffffff; font-size: 13px; font-weight: 500; font-family: 'Poppins', sans-serif; padding: 6px 16px; border-radius: 0px; border: none; cursor: pointer; transition: background 0.2s; }
         .explore-btn:hover { background: #e01030; }
         @media (max-width: 1024px) { .location-card-img-wrap { height: 220px; } .locations-cards { gap: 16px; } }

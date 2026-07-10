@@ -13,8 +13,33 @@ export default function OurServices() {
         .services-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 0 50px; }
         .service-card { display: flex; flex-direction: column; }
         .service-card-img-wrap { position: relative; width: 100%; height: 410px; }
-        .service-card-body { padding: 24px 28px 32px; background-color: #f5f5f5; flex: 1; }
-        .service-card-body.commercial { background: linear-gradient(135deg, #f5f5f5 0%, #f8e0e4 100%); }
+        .service-card-body { padding: 24px 28px 32px; flex: 1;}
+
+
+
+.serviceone{
+background: linear-gradient(
+  to bottom,
+  #E9E9E9 32%,
+  #FFFFFF 49%,
+  #FFFFFF 60%,
+  #F6F6F6 72%,
+  #C3C3C3 100%
+); 
+}
+
+
+.servicetwo{
+background: linear-gradient(
+  to right,
+  #FAEEEE 30%,
+  #FFFFFF 44%,
+  #FFFFFF 63%,
+  #F6F6F6 78%,
+  #A87A7A 100%
+);
+}
+   
         .service-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
         .service-card-title { font-size: 20px; font-weight: 400; color: #1a1a2e; font-family: "Playfair Display"; }
         .service-card-count { font-size: 14px; font-weight: 700; color: #1a1a2e; }
@@ -43,7 +68,7 @@ export default function OurServices() {
             <div className="service-card-img-wrap">
               <Image src="/images/service.jpg" alt="Residential" fill style={{ objectFit: "cover" }} />
             </div>
-            <div className="service-card-body">
+            <div className="service-card-body serviceone">
               <div className="service-card-header">
                 <span className="service-card-title">Residential</span>
                 <span className="service-card-count">120+ Properties</span>
@@ -52,11 +77,11 @@ export default function OurServices() {
               <button className="service-card-btn">Explore Properties</button>
             </div>
           </div>
-          <div className="service-card">
+          <div className="service-card ">
             <div className="service-card-img-wrap">
               <Image src="/images/second-service.png" alt="Commercial" fill style={{ objectFit: "cover" }} />
             </div>
-            <div className="service-card-body commercial">
+            <div className="service-card-body commercial servicetwo">
               <div className="service-card-header">
                 <span className="service-card-title">Commercial</span>
                 <span className="service-card-count">100+ Properties</span>

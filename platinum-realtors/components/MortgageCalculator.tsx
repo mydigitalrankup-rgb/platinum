@@ -369,12 +369,12 @@ export default function MortgageCalculator() {
           height: 100%;
 
           position: absolute;
-
+top:20px;
           inset: 0;
 
           object-fit: cover;
 
-          object-position: center;
+          object-position: top;
         }
 
 
@@ -526,7 +526,7 @@ export default function MortgageCalculator() {
         <div className="mc-content">
 
           <h2>
-            Mortgage Calculator
+            Mortage Calculator
           </h2>
 
           <p>
