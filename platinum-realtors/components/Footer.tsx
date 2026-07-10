@@ -52,7 +52,9 @@ export default function Footer() {
         <div className="col col-4">
           <h3>Contact</h3>
           <ul className="contact-list">
-            <li className="address">abc Building, CP-67, Mohali,<br />Sahibzada Ajit Singh Nagar,<br />Punjab 140306</li>
+            <li className="address">Shop No. 8, Bindra Complex,
+Jagadhri Gate, Patti Mehar,
+Ambala, Haryana 134003</li>
             <li className="contact-item" >
               <span className="contact-icon">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
