@@ -24,10 +24,14 @@ export default function ContactMap() {
           title="Platinum Realtors office location"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.578887654321!2d76.7174883!3d30.7046486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0b9c8c8c8d%3A0x0!2sSahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6883.693158133813!2d76.76682899274263!3d30.383714149017667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc9805704c12d%3A0x2d91ffcad753b096!2sPlatinum%20Realtors!5e0!3m2!1sen!2sin!4v1784091357570!5m2!1sen!2sin"
           allowFullScreen
         />
-      </section>
+
+
+
+
+           </section>
     </>
   );
 }

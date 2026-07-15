@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 const locationData = [
   { id: 1, name: "Mohali", image: "/images/mohali.jpg" },
   { id: 2, name: "Zirakpur", image: "/images/zirkpur.jpg" },
@@ -59,8 +59,8 @@ export default function Locations() {
                     <Image src={loc.image} alt={loc.name} fill style={{ objectFit: "cover" }} />
                   </div>
                   <div className="location-card-footer">
-                    <span>{loc.name}</span>
-                    <button className="explore-btn">Explore</button>
+                            <span>{loc.name}</span>    
+                  <Link href={`/residential#${loc.name}`}>    <button className="explore-btn">Explore</button></Link>
                   </div>
                 </div>
               ))}

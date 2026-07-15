@@ -334,7 +334,7 @@ export default function ResServicePlaces() {
           const visibleImages = [0,1,2,3].map(i => project.images[(start + i) % project.images.length]);
 
           return (
-            <div className="rp-project" key={project.id}>
+            <div className="rp-project" key={project.id} id={project.location}>
               {project.location && <div className="rp-location">{project.location}</div>}
               <div className={`rp-card ${project.theme}`} style={{ backgroundImage: `url(${project.bgImage})` }}>
                 <div className="rp-overlay" />

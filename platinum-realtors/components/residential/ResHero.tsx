@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ResHero() {
   return (
@@ -27,7 +28,7 @@ export default function ResHero() {
             <div className="com-hero-desc">
               Explore a wide range of residential properties. Whether you're a first-time buyer or looking to upgrade, we make finding your ideal home simple and stress-free.
             </div>
-            <a href="#properties" className="com-hero-btn">Have a look</a>
+            <a href="#Mohali" className="com-hero-btn">Have a look</a>
           </div>
           <div className="com-hero-right">
             <Image src="/images/comhero.jpg" alt="Residential Property" fill style={{ objectFit: "cover" }} sizes="55vw" />

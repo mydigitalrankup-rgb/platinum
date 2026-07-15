@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ResProperties() {
   return (
@@ -22,13 +23,13 @@ export default function ResProperties() {
             <div className="com-prop-image-wrapper">
               <Image src="/images/cm2.png" alt="Residential Properties" fill className="com-prop-img" style={{ objectFit: "cover" }} sizes="50vw" />
             </div>
-            <button className="com-prop-label">Residential Properties</button>
+        <button className="com-prop-label">Residential Properties</button>
           </div>
           <div className="com-prop-card">
             <div className="com-prop-image-wrapper">
               <Image src="/images/cm3.png" alt="Commercial Properties" fill className="com-prop-img" style={{ objectFit: "cover" }} sizes="50vw" />
             </div>
-            <button className="com-prop-label">Commercial Properties</button>
+          <Link href="/commercial/">    <button className="com-prop-label">Commercial Properties</button></Link>
           </div>
         </div>
       </div>
