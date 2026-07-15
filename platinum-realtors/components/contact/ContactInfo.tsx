@@ -18,6 +18,43 @@ function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
+
+function LinkedInIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v2a4 4 0 0 1 2-3z" />
+      <rect x="2" y="9" width="4" height="12" />
+      <circle cx="4" cy="4" r="2" />
+    </svg>
+  );
+}
+
+
+function YouTubeIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M22 12s0-3.5-.45-5.2a2.6 2.6 0 0 0-1.84-1.84C18 4.5 12 4.5 12 4.5s-6 0-7.71.46A2.6 2.6 0 0 0 2.45 6.8C2 8.5 2 12 2 12s0 3.5.45 5.2a2.6 2.6 0 0 0 1.84 1.84C6 19.5 12 19.5 12 19.5s6 0 7.71-.46a2.6 2.6 0 0 0 1.84-1.84C22 15.5 22 12 22 12Z" />
+      <path d="M10 9L15 12L10 15V9Z" />
+    </svg>
+  );
+}
+
 function XIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -333,25 +370,55 @@ export default function ContactInfo() {
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                   <span>
-                  Shop No. 8, Bindra Complex,
-Jagadhri Gate, Patti Mehar,
-Ambala, Haryana 134003
+                    Shop No. 8, Bindra Complex,
+                    Jagadhri Gate, Patti Mehar,
+                    Ambala, Haryana 134003
                   </span>
                 </div>
               </div>
 
               <p className="contact-info__social-label">Follow Us:</p>
-              <div className="contact-info__socials">
-                <a href="#" className="contact-info__social" aria-label="Instagram">
-                  <InstagramIcon width={14} height={14} />
-                </a>
-                <a href="#" className="contact-info__social" aria-label="Facebook">
-                  <FacebookIcon width={14} height={14} />
-                </a>
-                <a href="#" className="contact-info__social" aria-label="X">
-                  <XIcon width={12} height={12} />
-                </a>
-              </div>
+           <div className="contact-info__socials">
+  <a
+    href="https://www.instagram.com/platinum_realtors1/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-info__social"
+    aria-label="Instagram"
+  >
+    <InstagramIcon width={14} height={14} />
+  </a>
+
+  <a
+    href="https://www.facebook.com/PlatinumRealtors/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-info__social"
+    aria-label="Facebook"
+  >
+    <FacebookIcon width={14} height={14} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/company/111548274/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-info__social"
+    aria-label="LinkedIn"
+  >
+    <LinkedInIcon width={14} height={14} />
+  </a>
+
+  <a
+    href="https://www.youtube.com/@PlatinumRealtors01"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="contact-info__social"
+    aria-label="YouTube"
+  >
+    <YouTubeIcon width={14} height={14} />
+  </a>
+</div>
             </div>
 
             <div className="contact-info__collage-col">
