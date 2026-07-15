@@ -65,7 +65,15 @@ export default function ComServicePlaces() {
         @media(max-width:1200px){ .rp-card{ height:auto; padding-bottom:40px; } .rp-images{ flex-wrap:wrap; } }
         @media(max-width:992px){ .rp-title{ font-size:28px; } .rp-description{ font-size:14px; width:95%; } .rp-image-box{ width:210px; height:160px; } }
         @media(max-width:768px){ .rp-card{ padding-bottom:30px; } .rp-slider{ flex-direction:column; gap:20px; } .rp-arrow{ font-size:36px; } .rp-images{ width:100%; justify-content:center; gap:14px; } .rp-image-box{ width:46%; height:170px; } .rp-description{ text-align:center; width:100%; } }
-        @media(max-width:480px){ .rp-location{ font-size:18px; } .rp-title{ font-size:24px; } .rp-description{ font-size:13px; line-height:1.6; } .rp-image-box{ width:100%; height:220px; } .rp-images{ flex-direction:column; align-items:center; } }
+        @media(max-width:480px){
+       
+        .rp-project { width: 100%;  margin: 0 auto 0px; padding: 0 0px; }
+        
+        .rp-location{ font-size:18px; } .rp-title{ font-size:24px; } .rp-description{ font-size:13px; line-height:1.6; }
+         .rp-image-box{ width:46%; height:130px; }
+          
+          
+          }
       `}</style>
 
       <section className="rp-section">

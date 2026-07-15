@@ -318,14 +318,23 @@ export default function ResServicePlaces() {
         .rp-slider { width: 100%; display: flex; align-items: center; justify-content: space-between; }
         .rp-arrow { width: 44px; height: 44px; border: none; background: none; color: #e21828; font-size: 42px; cursor: pointer; display: flex; justify-content: center; align-items: center; transition: .25s; user-select: none; }
         .rp-arrow:hover { transform: scale(1.15); }
-        .rp-images { width: 90%; display: flex; justify-content: center; gap: 18px; }
+        .rp-images { width: 100%; display: flex; justify-content: center; gap: 18px; }
         .rp-image-box { position: relative; width: 238px; height: 182px;border-right: 2px solid #df1b27;  border-left: 2px solid #df1b27; overflow: hidden; flex-shrink: 0; }
         .rp-image-box img { transition: .35s; }
         .rp-image-box:hover img { transform: scale(1.05); }
         @media(max-width:1200px){ .rp-card{ height:auto; padding-bottom:40px; } .rp-images{ flex-wrap:wrap; } }
         @media(max-width:992px){ .rp-title{ font-size:28px; } .rp-description{ font-size:14px; width:95%; } .rp-image-box{ width:210px; height:160px; } }
-        @media(max-width:768px){ .rp-card{ padding-bottom:30px; } .rp-slider{ flex-direction:column; gap:20px; } .rp-arrow{ font-size:36px; } .rp-images{ width:100%; justify-content:center; gap:14px; } .rp-image-box{ width:46%; height:170px; } .rp-description{ text-align:center; width:100%; } }
-        @media(max-width:480px){ .rp-location{ font-size:18px; } .rp-title{ font-size:24px; } .rp-description{ font-size:13px; line-height:1.6; } .rp-image-box{ width:100%; height:220px; } .rp-images{ flex-direction:column; align-items:center; } }
+        @media(max-width:768px){
+          .rp-project { width: 100%; margin: 0 auto 0px; padding: 0 0px;  }
+        
+        .rp-card{ padding-bottom:30px; }
+         .rp-slider{ flex-direction:column; gap:20px; }
+          .rp-arrow{ font-size:30px; }
+           .rp-images{ width:100%; justify-content:center; gap:14px; }
+            .rp-image-box{ width:46%; height:180px; } 
+            .rp-description{ text-align:center; width:100%; } 
+            }
+        @media(max-width:480px){.rp-image-box{ width:46%; height:130px; }  .rp-location{ font-size:18px; } .rp-title{ font-size:24px; } .rp-description{ font-size:13px; line-height:1.6; }  }
       `}</style>
 
       <section className="rp-section">
