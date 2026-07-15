@@ -10,7 +10,19 @@ export default function NewsletterSection() {
           background-color: #fff;
           position: relative;
           overflow: hidden;
+          margin-bottom:100px;
         }
+
+
+        .newsletter{
+    position: relative;
+    background-image: url("/images/spring.png");
+    background-size: 10% 100%;
+    background-position: left 60% top 30px;
+    background-repeat: no-repeat;
+
+    
+}
 
         .newsletter-bird {
           position: absolute;
