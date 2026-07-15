@@ -26,9 +26,45 @@ export default function Footer() {
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ cursor: "pointer" }}>
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
             </svg>
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="white" style={{ cursor: "pointer" }}>
+         
+
+<svg
+  width="26"
+  height="26"
+  viewBox="0 0 24 24"
+  fill="white"
+  style={{ cursor: "pointer" }}
+>
+  <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5zM.5 8h4V24h-4V8zm7 0h3.83v2.19h.05c.53-1.01 1.83-2.19 3.77-2.19 4.03 0 4.78 2.65 4.78 6.09V24h-4v-7.02c0-1.67-.03-3.82-2.33-3.82-2.33 0-2.69 1.82-2.69 3.7V24h-4V8z"/>
+</svg>
+
+
+  <svg
+  width="26"
+  height="26"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  style={{ cursor: "pointer" }}
+>
+  <path
+    d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29.94 29.94 0 0 0 1 12a29.94 29.94 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29.94 29.94 0 0 0 23 12a29.94 29.94 0 0 0-.46-5.58Z"
+    stroke="white"
+    strokeWidth="1.8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+  <path
+    d="M10 9L15 12L10 15V9Z"
+    stroke="white"
+    strokeWidth="1.8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>
+            {/* <svg width="26" height="26" viewBox="0 0 24 24" fill="white" style={{ cursor: "pointer" }}>
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-            </svg>
+            </svg> */}
           </div>
         </div>
 
@@ -61,7 +97,7 @@ Ambala, Haryana 134003</li>
                   <rect x="2" y="4" width="20" height="16" rx="2" /><polyline points="2,4 12,13 22,4" />
                 </svg>
               </span>
-             platinumrealors569@gmail.com
+           platinumrealtors569@gmail.com
             </li>
             <li className="contact-item">
               <span className="contact-icon">
@@ -81,7 +117,7 @@ Ambala, Haryana 134003</li>
       </div>
 
       <style>{`
-        .footer {background:rgb(26,48,68); position: relative; width: 100%; min-height: 350px; background-size: cover; background-position: center -120px; background-repeat: no-repeat; padding: 0 80px 40px; box-sizing: border-box; }
+        .footer {  font-family:Montserrat; background:rgb(26,48,68); position: relative; width: 100%; min-height: 350px; background-size: cover; background-position: center -120px; background-repeat: no-repeat; padding: 0 80px 40px; box-sizing: border-box; }
         .footer-top-space { height: 310px; }
         .footer-content { display: flex; justify-content: space-between; align-items: flex-start; max-width: 1400px; width: 100%; margin: 0 auto; gap: 20px; }
         .col { display: flex; flex-direction: column; }

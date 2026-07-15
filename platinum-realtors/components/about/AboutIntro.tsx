@@ -13,7 +13,7 @@ export default function AboutSection() {
   return (
     <>
       <style>{`
-        .about-section { position: relative; width: 100%; height: 800px; display: flex; flex-direction: row; overflow: hidden; font-family: 'Georgia', serif; }
+        .about-section { position: relative; width: 100%; min-height: 800px; display: flex; flex-direction: row; overflow: hidden; font-family: 'Georgia', serif; }
         .about-collage { position: relative; width: 52%; flex-shrink: 0; height: 100%; z-index: 2; }
         .c-img { position: absolute; object-fit: cover; display: block; top: var(--top); left: var(--left); width: var(--width); height: var(--height); }
         .collage-grid { display: none; }
@@ -21,10 +21,10 @@ export default function AboutSection() {
         .collage-arc { position: absolute; bottom: 48px; left: -8px; width: 185px; height: 65px; border-bottom: 1px solid rgba(200,169,110,0.32); border-right: 1px solid rgba(200,169,110,0.12); border-radius: 0 0 36px 0; pointer-events: none; }
         .about-panels { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 26px; padding: 44px 34px 44px 20px; position: relative; z-index: 2; }
         .about-panel { width:90%; background: rgba(26,24,24,0.90); border: 1px solid rgba(200,169,110,0.22); padding: 22px 26px; text-align: center; }
-        .about-panel p {font-family: Arial, sans-serif; margin: 0; font-size: 12.5px; color: #b5b0a6; line-height: 1.85; }
+        .about-panel p {font-family:Montserrat; margin: 0; font-size: 12.5px; color: #b5b0a6; line-height: 1.85; }
         .panel-brand { font-weight: 700; color: #c0392b; font-style: italic; }
-        .panel-big-red {font-size: 20px; font-weight: 700; color: #c0392b; font-family:Montserrat;line-height: 1.1; display: inline; }
-        .panel-big-red-sm {font-family:Montserrat;  font-size: 20px; font-weight: 700; color: #c0392b; line-height: 1.1; display: inline; }
+        .panel-big-red {font-size: 20px; font-weight: 700; color: #c0392b;   font-family: "Playfair Display", serif;line-height: 1.1; display: inline; }
+        .panel-big-red-sm {  font-family: "Playfair Display", serif; font-size: 20px; font-weight: 700; color: #c0392b; line-height: 1.1; display: inline; }
         .prism-wrap { position: absolute; bottom: 0; right: 0; width: 175px; height: 290px; pointer-events: none; }
         .prism { position: absolute; border: 1px solid rgba(200,169,110,0.38); background: linear-gradient(135deg, rgba(180,140,60,0.07), transparent); }
         .prism--lg { width: 80px; height: 130px; bottom: 22px; right: 26px; transform: rotate(14deg) skewY(-6deg); }

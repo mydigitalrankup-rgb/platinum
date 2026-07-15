@@ -29,12 +29,12 @@ export default function Navbar() {
       <style>{`
         :root { --red: #D7172A; --white: #ffffff; }
         .navbar-wrapper { position: fixed; top: 20px; left: 81px; right: 81px; z-index: 1000; }
-        .navbar { height: 100px; background: rgba(26, 48, 65, 0.15);  ;display: flex; align-items: center; backdrop-filter: blur(4px); }
+        .navbar {   height: 100px; background: rgba(26, 48, 65, 0.15);  ;display: flex; align-items: center; backdrop-filter: blur(4px); }
         .navbar .container { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 0 40px; }
         .navbar-logo { display: flex; align-items: center; flex-shrink: 0; }
         .navbar-logo-img-wrap { position: relative; height: 72px; width: 120px; }
         .navbar-menu { display: flex; align-items: center; gap: 36px; }
-        .navbar-menu a { font-size: 14px; font-weight: 400; color: var(--white); padding: 6px 14px; text-decoration: none; transition: all 0.25s ease; white-space: nowrap; }
+        .navbar-menu a {font-family:Montserrat; font-size: 14px; font-weight: 400; color: var(--white); padding: 6px 14px; text-decoration: none; transition: all 0.25s ease; white-space: nowrap; }
         .navbar-menu a.active { border: 1px solid var(--red); color: var(--white); }
         .navbar-menu a:hover { color: var(--red); }
         .dropdown { position: relative; }
@@ -49,7 +49,7 @@ export default function Navbar() {
         .dropdown-menu a:last-child { border-bottom: none; }
         .dropdown-menu a:hover { color: var(--red); background: rgba(255,255,255,0.05); }
         .dropdown-menu a.active { color: var(--red); }
-        .navbar-contact-btn { background: var(--red); color: var(--white); font-size: 14px; font-weight: 500; padding: 9px 24px; border-radius: 0px; border: none; cursor: pointer; transition: all 0.25s ease; text-decoration: none; display: inline-block; white-space: nowrap; flex-shrink: 0; }
+        .navbar-contact-btn {   font-family:Montserrat;background: var(--red); color: var(--white); font-size: 14px; font-weight: 500; padding: 9px 24px; border-radius: 0px; border: none; cursor: pointer; transition: all 0.25s ease; text-decoration: none; display: inline-block; white-space: nowrap; flex-shrink: 0; }
         .navbar-contact-btn:hover { background: #b5121f; transform: translateY(-1px); }
         .hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; flex-shrink: 0; }
         .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: transform 0.25s ease, opacity 0.25s ease; }
@@ -58,7 +58,7 @@ export default function Navbar() {
         .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
         .mobile-menu { display: none; flex-direction: column; background: rgba(26, 48, 65, 0.97); border: 1px solid var(--red); border-top: none; padding: 16px 20px; gap: 4px; }
         .mobile-menu.open { display: flex; }
-        .mobile-menu a { font-size: 14px; font-weight: 400; color: var(--white); padding: 12px 14px; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.08); transition: color 0.2s; }
+        .mobile-menu a {  font-family:Montserrat; font-size: 14px; font-weight: 400; color: var(--white); padding: 12px 14px; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.08); transition: color 0.2s; }
         .mobile-menu a:last-child { border-bottom: none; }
         .mobile-menu a.active { color: var(--red); }
         .mobile-menu a:hover { color: var(--red); }

@@ -34,6 +34,7 @@ export default function NewsletterSection() {
           font-size: 13px;
           color: #666;
           margin-bottom: 24px;
+            font-family:Montserrat;
         }
 
         .newsletter-form {
@@ -42,6 +43,7 @@ export default function NewsletterSection() {
           gap: 0;
           max-width: 400px;
           margin: 0 auto 10px;
+            font-family:Montserrat;
         }
 
         .newsletter-input {
@@ -68,7 +70,8 @@ export default function NewsletterSection() {
 
         .newsletter-privacy {
           font-size: 11px;
-          color: #aaa;
+          color: #aaa;  font-family:Montserrat;
+
         }
 
         @media (max-width: 480px) {
@@ -90,7 +93,7 @@ export default function NewsletterSection() {
       `}</style>
 
       <section className="newsletter">
-        <div className="newsletter-bird">🕊</div>
+        {/* <div className="newsletter-bird">🕊</div> */}
 
         <h2 className="newsletter-heading">Stay updated with latest properties</h2>
         <p className="newsletter-desc">Get exclusive property alerts delivered to your inbox</p>

@@ -333,8 +333,9 @@ export default function ContactInfo() {
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                   <span>
-                    Vibe Building, CP-67, Mohali, Sahibzada Ajit Singh Nagar,
-                    Punjab 140306
+                  Shop No. 8, Bindra Complex,
+Jagadhri Gate, Patti Mehar,
+Ambala, Haryana 134003
                   </span>
                 </div>
               </div>

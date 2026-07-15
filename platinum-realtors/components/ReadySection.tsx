@@ -35,6 +35,7 @@ export default function ReadySection() {
           margin-bottom: 20px;
           font-size: 13px;
           color: #444;
+          font-family:Montserrat;
         }
 
         .ready-btn {

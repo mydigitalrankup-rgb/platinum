@@ -38,7 +38,8 @@ export default function ContactHero() {
           max-width: 720px;
         }
         .contact-hero__title {
-          font-family: 'Inter', sans-serif;
+                 font-family:Montserrat;
+
           font-size: clamp(36px, 5vw, 56px);
           font-weight: 600;
           color: #fff;

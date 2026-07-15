@@ -16,7 +16,7 @@ export default function TestimonialsSection() {
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&display=swap');
         .ts-section { padding: 56px 60px 48px; text-align: center; position: relative; overflow: hidden; background-color: #ffffff; font-family: 'Playfair Display', serif; }
         .ts-watermark { position: absolute; top: 70px; left: 51%; transform: translateX(-50%); font-size: 130px; font-weight: 900; color: rgba(210, 30, 60, 0.07); white-space: nowrap; pointer-events: none; letter-spacing: 12px; font-family: 'Playfair Display', serif; user-select: none; line-height: 1; z-index: 0; }
-        .ts-heading { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; font-style: italic; color: #c8102e; margin: 0 0 44px 0; position: relative; z-index: 1; letter-spacing: 0.01em; }
+        .ts-heading { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700;  color: #c8102e; margin: 0 0 44px 0; position: relative; z-index: 1; letter-spacing: 0.01em; }
         .ts-row { display: flex; justify-content: center; align-items: center; gap: 14px; margin-bottom: 20px; position: relative; z-index: 1; }
         .ts-card { position: relative; flex-shrink: 0; border: 1.5px solid rgba(180, 20, 40, 0.55); overflow: hidden; }
         .ts-card--featured { border: 2px solid #c8102e; box-shadow: 0 4px 24px rgba(0,0,0,0.12); }

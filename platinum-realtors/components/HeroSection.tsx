@@ -12,6 +12,7 @@ export default function HeroSection() {
           height: 100vh;
           min-height: 600px;
           overflow: hidden;
+            font-family:Montserrat;
         }
 
       
@@ -43,7 +44,7 @@ export default function HeroSection() {
         }
 
         .hero-inner p {
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Montserrat';
           font-size: 15px;
           font-weight: 400;
           color: rgba(255, 255, 255, 0.9);
@@ -74,7 +75,7 @@ export default function HeroSection() {
           font-weight: 500;
           color: #ffffff;
           padding-left: 2px;
-          font-family: 'Poppins', sans-serif;
+         font-family:Montserrat;
         }
 
         .search-select-wrap {
@@ -99,7 +100,7 @@ export default function HeroSection() {
           border: 2px solid #D7172A;
           border-radius: 0px;
           font-size: 13px;
-          font-family: 'Poppins', sans-serif;
+         font-family:Montserrat;
           color: #fff;
           background-color: rgba(0, 0, 0, 0.4);
           appearance: none;
@@ -121,7 +122,7 @@ export default function HeroSection() {
           color: #ffffff;
           font-size: 14px;
           font-weight: 500;
-          font-family: 'Poppins', sans-serif;
+           font-family:Montserrat;
           border-radius: 0px;
           border: none;
           cursor: pointer;

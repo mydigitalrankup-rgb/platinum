@@ -160,13 +160,14 @@ export default function ContactFAQ() {
           border: none;
           cursor: pointer;
           text-align: left;
+            font-family:Montserrat;
         }
         .contact-faq__question {
           font-size: 14px;
           font-weight: 500;
           color: #fff;
           line-height: 1.45;
-          font-family: 'Inter', sans-serif;
+        
         }
         .contact-faq__answer {
           font-size: 12px;
@@ -174,7 +175,7 @@ export default function ContactFAQ() {
           color: rgba(255, 255, 255, 0.5);
           padding: 0 24px 14px 0;
           margin: 0;
-          font-family: 'Inter', sans-serif;
+         
         }
         @media (max-width: 1024px) {
           .contact-faq { padding: 64px 40px 72px; }

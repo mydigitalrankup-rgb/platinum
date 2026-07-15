@@ -160,7 +160,7 @@ export default function ContactForm() {
           font-size: 14px;
           color: #fff;
           outline: none;
-          font-family: 'Inter', sans-serif;
+        font-family:Montserrat;
           transition: border-color 0.2s;
           height:100% !important;
            
@@ -190,7 +190,8 @@ export default function ContactForm() {
           border-radius: 2px;
           cursor: pointer;
           transition: background 0.2s;
-          font-family: 'Inter', sans-serif;
+               font-family:Montserrat;
+
         }
         .contact-form__submit:hover:not(:disabled) {
           background: #b5121f;

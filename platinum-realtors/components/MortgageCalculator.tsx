@@ -174,7 +174,7 @@ export default function MortgageCalculator() {
         .mc-content > p {
           width: 100%;
 
-          font-family: "Inter", sans-serif;
+         font-family:Montserrat;
 
           font-size: 14px;
 
@@ -229,7 +229,7 @@ export default function MortgageCalculator() {
         .mc-field label {
           display: block;
 
-          font-family: "Inter", sans-serif;
+       font-family:Montserrat;
 
           font-size: 12px;
 
@@ -255,8 +255,7 @@ export default function MortgageCalculator() {
 
           padding: 7px 0;
 
-          font-family:
-            "Inter", sans-serif;
+         font-family:Montserrat;
 
           font-size: 14px;
 
@@ -297,8 +296,7 @@ export default function MortgageCalculator() {
 
           border: none;
 
-          font-family:
-            "Inter", sans-serif;
+     font-family:Montserrat;
 
           font-size: 12px;
 
@@ -331,9 +329,7 @@ export default function MortgageCalculator() {
           border-top:
             1px solid #eeeeee;
 
-          font-family:
-            "Inter", sans-serif;
-
+      
           font-size: 17px;
 
           font-weight: 700;

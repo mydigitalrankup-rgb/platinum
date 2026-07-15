@@ -19,7 +19,7 @@ export default function AboutHero() {
         .about-hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
         .about-hero__overlay { position: absolute; inset: 0; background-color: rgba(10, 10, 20, 0.5); }
         .about-hero__content { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 80px 24px 24px; }
-        .about-hero__title { font-family: 'Montserrat'; font-size: clamp(28px, 5vw, 52px); font-weight: 700; color: #fff; letter-spacing: 1px; text-align: center; line-height: 1.2; word-break: break-word; margin: 0; }
+        .about-hero__title { font-size: clamp(28px, 5vw, 52px); font-weight: 700; color: #fff; letter-spacing: 1px; text-align: center; line-height: 1.2; word-break: break-word; margin: 0; }
         @media (max-width: 480px) {
          .about-hero{height:100vh;}
          .about-hero__content { padding: 70px 16px 16px; }
