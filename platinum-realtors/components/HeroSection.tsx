@@ -49,7 +49,7 @@ export default function HeroSection() {
           font-weight: 400;
           color: rgba(255, 255, 255, 0.9);
         }
-
+   
         .hero-search-bar {
           position: absolute;
           bottom: 28px;
