@@ -84,7 +84,7 @@ export default function ReadySection() {
         </p>
         <div className="ready-contact">
           <span>&#9742; +91-9518478179</span>
-          <span>&#9993; platinumrealors569@gmail.com</span>
+          <span>&#9993; platinumrealtors569@gmail.com</span>
         </div>
        <a href="tel:+919518478179">
   <button className="ready-btn">
